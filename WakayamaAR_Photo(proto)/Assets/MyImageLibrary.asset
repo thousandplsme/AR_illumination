@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: MyImageLibrary
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 4922817575958557130
+  m_GuidHigh: 11010135853823491499
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4831568448337266281
+      m_GuidHigh: 13420433753184182418
+    m_SerializedTextureGuid:
+      m_GuidLow: 10080410956451089058
+      m_GuidHigh: 12226794804163731451
+    m_Size: {x: 0.15, y: 0.1125387}
+    m_SpecifySize: 1
+    m_Name: PXL_20251229_062307359~2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5108838581927052363
+      m_GuidHigh: 5684791409720268476
+    m_SerializedTextureGuid:
+      m_GuidLow: 6792811723272395767
+      m_GuidHigh: 15949242311697327928
+    m_Size: {x: 0.1, y: 0.13320783}
+    m_SpecifySize: 1
+    m_Name: "\u30E1\u30C7\u30A3\u30A2"
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5687774838338298013
+      m_GuidHigh: 6280951287130690703
+    m_SerializedTextureGuid:
+      m_GuidLow: 6306321541648153912
+      m_GuidHigh: 71786415826641256
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: nisimura
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5474279063312564223
+      m_GuidHigh: 2317430179765726356
+    m_SerializedTextureGuid:
+      m_GuidLow: 16700748997164753036
+      m_GuidHigh: 9700330285295920811
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 623304941_1145170697534831_3758087060889012138_n
+    m_Texture: {fileID: 0}
