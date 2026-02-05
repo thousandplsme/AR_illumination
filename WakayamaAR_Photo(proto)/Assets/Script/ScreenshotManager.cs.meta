@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 43fb04ff823b1a34a93c76137a7f4de1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - titlePanel: {instanceID: 0}
+  - photoPanel: {instanceID: 0}
+  - resultPanel: {instanceID: 0}
+  - saveCompleteMessage: {instanceID: 0}
+  - previewImage: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - shutterSE: {fileID: 8300000, guid: 27c59c6137075b04294864e027170a46, type: 3}
+  - soundToggle: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
