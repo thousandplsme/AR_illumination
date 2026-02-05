@@ -37,3 +37,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: "\u30D4\u30FC\u30B9\u30B5\u30F3\u30BF"
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5099742742782762455
+      m_GuidHigh: 15366259212669729430
+    m_SerializedTextureGuid:
+      m_GuidLow: 12228428360556647072
+      m_GuidHigh: 1712569765016874378
+    m_Size: {x: 0.12, y: 0.15981567}
+    m_SpecifySize: 1
+    m_Name: PXL_20260205_053845665
+    m_Texture: {fileID: 0}

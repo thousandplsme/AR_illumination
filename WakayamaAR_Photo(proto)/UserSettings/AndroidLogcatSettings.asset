@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "49121JEKB10529",
         "name": "com.unity.template.ar_mobile",
-        "processId": 15396,
+        "processId": 20781,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -252,6 +252,48 @@
             "deviceId": "49121JEKB10529",
             "name": "com.unity.template.ar_mobile",
             "processId": 15396,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 26648,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 29229,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 30857,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 320,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 2078,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 19382,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 20781,
             "exited": false
         }
     ],
