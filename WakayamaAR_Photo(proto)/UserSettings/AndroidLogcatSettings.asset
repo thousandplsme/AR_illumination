@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "49121JEKB10529",
         "name": "com.unity.template.ar_mobile",
-        "processId": 20781,
+        "processId": 9328,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -294,6 +294,66 @@
             "deviceId": "49121JEKB10529",
             "name": "com.unity.template.ar_mobile",
             "processId": 20781,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 20038,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 22702,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 23595,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 30930,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 31832,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 2811,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 5125,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 6180,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 8214,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 9328,
             "exited": false
         }
     ],
