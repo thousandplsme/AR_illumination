@@ -57,3 +57,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: konishi_black
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5595943568117412368
+      m_GuidHigh: 12092180794472996264
+    m_SerializedTextureGuid:
+      m_GuidLow: 6900695662575868270
+      m_GuidHigh: 14578028402536176712
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: "\u30E1\u30C7\u30A3\u30A2 (1)"
+    m_Texture: {fileID: 0}

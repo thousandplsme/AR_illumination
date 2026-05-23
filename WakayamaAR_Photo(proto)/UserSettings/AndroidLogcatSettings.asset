@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "49121JEKB10529",
     "m_SelectedProcess": {
         "deviceId": "49121JEKB10529",
-        "name": "com.unity.template.ar_mobile",
-        "processId": 9328,
+        "name": "com.unity.template.ar_mobilever2",
+        "processId": 17161,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -354,6 +354,24 @@
             "deviceId": "49121JEKB10529",
             "name": "com.unity.template.ar_mobile",
             "processId": 9328,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 11123,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 15698,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobilever2",
+            "processId": 17161,
             "exited": false
         }
     ],
