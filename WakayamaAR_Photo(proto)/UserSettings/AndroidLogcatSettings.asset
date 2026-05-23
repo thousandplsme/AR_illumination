@@ -1,0 +1,471 @@
+{
+    "m_SelectedDeviceId": "49121JEKB10529",
+    "m_SelectedProcess": {
+        "deviceId": "49121JEKB10529",
+        "name": "com.unity.template.ar_mobilever2",
+        "processId": 17161,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownProcessesForSerialization": [
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 21874,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 24910,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 6821,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 16215,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 26816,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 32632,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 4045,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 6420,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 24682,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 26406,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 5384,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 9483,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 14360,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 15459,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 16254,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 5677,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 7401,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 9480,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 14303,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 19333,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 23019,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 26224,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 27317,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 28622,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 22672,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 28962,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 4329,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 12275,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 14146,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 16743,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 18382,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 19877,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 21382,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 27465,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 28854,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 30556,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 4051,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 7139,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 11827,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 13529,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 15396,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 26648,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 29229,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 30857,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 320,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 2078,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 19382,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 20781,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 20038,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 22702,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 23595,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 30930,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 31832,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 2811,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 5125,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 6180,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 8214,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 9328,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 11123,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 15698,
+            "exited": false
+        },
+        {
+            "deviceId": "49121JEKB10529",
+            "name": "com.unity.template.ar_mobilever2",
+            "processId": 17161,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_ExtraWindowState": {
+        "Type": 0,
+        "Height": 0.0
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "AutoCapture": true
+    },
+    "m_FilterOptions": {
+        "m_Filter": "",
+        "m_UseRegularExpressions": false,
+        "m_MatchCase": false
+    },
+    "m_SymbolPaths": [],
+    "m_CaptureVideoSettings": {
+        "TimeLimitEnabled": false,
+        "TimeLimit": 180,
+        "VideoSizeEnabled": false,
+        "VideoSizeX": 1280,
+        "VideoSizeY": 720,
+        "BitRateEnabled": false,
+        "BitRateK": 20000,
+        "DisplayIdEnabled": false,
+        "DisplayId": ""
+    },
+    "m_ScreenCaptureSettings": {
+        "Mode": 0,
+        "m_LastSaveLocation": [
+            "C:\\Users\\25111103\\Documents\\WakayamaAR_Photo(proto)",
+            "C:\\Users\\25111103\\Documents\\WakayamaAR_Photo(proto)"
+        ]
+    },
+    "m_QueryLayoutSettings": {
+        "LastLayoutSaveLocation": "",
+        "LastScreenshotSaveLocation": ""
+    },
+    "m_InputSettings": {
+        "ShiftModifier": false,
+        "SendText": "",
+        "PosixKillSignal": 0,
+        "TargetProcess": {
+            "deviceId": "",
+            "name": "",
+            "processId": 0,
+            "exited": false
+        }
+    },
+    "m_AutoScroll": 2
+}
