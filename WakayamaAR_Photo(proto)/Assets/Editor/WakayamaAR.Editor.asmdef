@@ -1,0 +1,5 @@
+{
+    "name": "WakayamaAR.Editor",
+    "references": ["WakayamaAR.Runtime", "UnityEngine.UI"],
+    "includePlatforms": ["Editor"]
+}

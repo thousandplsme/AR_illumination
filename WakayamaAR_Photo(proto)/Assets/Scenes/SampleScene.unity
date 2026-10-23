@@ -5326,7 +5326,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a75580cc1d27ee46aa0ef443bc0d300, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CameraMaskController
+  m_EditorClassIdentifier: WakayamaAR.Runtime::CameraMaskController
   photoTopMask: {fileID: 1646298886}
   photoBottomMask: {fileID: 1190524714}
   resultTopMask: {fileID: 0}
@@ -5687,7 +5687,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1346442689}
-        m_TargetAssemblyTypeName: ScreenshotManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: ScreenshotManager, WakayamaAR.Runtime
         m_MethodName: OnClickShutter
         m_Mode: 1
         m_Arguments:
@@ -5988,13 +5988,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43fb04ff823b1a34a93c76137a7f4de1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScreenshotManager
+  m_EditorClassIdentifier: WakayamaAR.Runtime::ScreenshotManager
   titlePanel: {fileID: 2134915234}
   photoPanel: {fileID: 1146587922}
   resultPanel: {fileID: 2069499864}
   saveCompleteMessage: {fileID: 0}
   previewImage: {fileID: 1124082244}
-  topMargin: 200
   audioSource: {fileID: 0}
   shutterSE: {fileID: 8300000, guid: 27c59c6137075b04294864e027170a46, type: 3}
   soundToggle: {fileID: 0}
@@ -6924,7 +6923,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1346442689}
-        m_TargetAssemblyTypeName: ScreenshotManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: ScreenshotManager, WakayamaAR.Runtime
         m_MethodName: OnClickRetake
         m_Mode: 1
         m_Arguments:
@@ -7132,7 +7131,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1346442689}
-        m_TargetAssemblyTypeName: ScreenshotManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: ScreenshotManager, WakayamaAR.Runtime
         m_MethodName: OnClickStart
         m_Mode: 1
         m_Arguments:
@@ -7509,7 +7508,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1346442689}
-        m_TargetAssemblyTypeName: ScreenshotManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: ScreenshotManager, WakayamaAR.Runtime
         m_MethodName: OnClickSave
         m_Mode: 1
         m_Arguments:

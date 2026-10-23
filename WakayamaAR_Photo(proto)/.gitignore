@@ -97,3 +97,10 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Known generated build backups/debug output; working files are retained.
+/*_BurstDebugInformation_DoNotShip/
+/test_a_BackUpThisFolder_ButDontShipItWithYourGame/
+/新しいフォルダー/test_BackUpThisFolder_ButDontShipItWithYourGame/
+/新しいフォルダー/WakayamaAR_Photo(proto)_BurstDebugInformation_DoNotShip/
+/*.slnx

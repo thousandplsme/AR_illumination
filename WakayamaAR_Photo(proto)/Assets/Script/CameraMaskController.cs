@@ -17,60 +17,59 @@ public class CameraMaskController : MonoBehaviour
 
     void OnEnable()
     {
-        // 自分のパネルの本当の大きさを取得する
         myRect = GetComponent<RectTransform>();
         AdjustMasks();
     }
 
-    void AdjustMasks()
+    void OnRectTransformDimensionsChange()
     {
-        // Screen.width ではなく、このパネルの幅(rect.width)を使うのが正解
-        float uiWidth = myRect.rect.width;
-        float uiHeight = myRect.rect.height;
-
-        // 4:3 の高さを計算
-        float visibleHeight = uiWidth * 4f / 3f;
-
-        // 下の余白を計算
-        float bottomMaskHeight = uiHeight - visibleHeight - topMargin;
-        if (bottomMaskHeight < 0) bottomMaskHeight = 0;
-
-        // 設定値を計算
-        Vector2 topSize = new Vector2(0, topMargin);
-        Vector2 topPos = new Vector2(0, -topMargin / 2f);
-        Vector2 bottomSize = new Vector2(0, bottomMaskHeight);
-        Vector2 bottomPos = new Vector2(0, bottomMaskHeight / 2f);
-
-        // 適用
-        if (photoTopMask) ApplySettings(photoTopMask, topSize, topPos, true);
-        if (photoBottomMask) ApplySettings(photoBottomMask, bottomSize, bottomPos, false);
-        if (resultTopMask) ApplySettings(resultTopMask, topSize, topPos, true);
-        if (resultBottomMask) ApplySettings(resultBottomMask, bottomSize, bottomPos, false);
+        if (isActiveAndEnabled) AdjustMasks();
     }
 
-    void ApplySettings(RectTransform mask, Vector2 size, Vector2 pos, bool isTop)
+    // 撮影直前にレイアウトを確定させ、表示枠を画面ピクセルへ変換する。
+    public bool TryGetCaptureRect(out RectInt pixels)
     {
-        // 強制的にアンカーを中心にリセットしてから設定する（ズレ防止）
-        mask.anchorMin = new Vector2(0.5f, 0.5f);
-        mask.anchorMax = new Vector2(0.5f, 0.5f);
-        mask.pivot = new Vector2(0.5f, 0.5f);
-        
-        // 横幅はパネルいっぱいにする
-        mask.sizeDelta = new Vector2(myRect.rect.width + 100, size.y); // +100は隙間埋め
-        
-        if (isTop) // 上の帯
-        {
-            // パネルの上端を基準に配置
-            mask.anchorMin = new Vector2(0, 1);
-            mask.anchorMax = new Vector2(1, 1);
-            mask.anchoredPosition = pos;
-        }
-        else // 下の帯
-        {
-            // パネルの下端を基準に配置
-            mask.anchorMin = new Vector2(0, 0);
-            mask.anchorMax = new Vector2(1, 0);
-            mask.anchoredPosition = pos;
-        }
+        pixels = default;
+        Canvas.ForceUpdateCanvases();
+        if (!myRect) myRect = GetComponent<RectTransform>();
+        if (!myRect || !PhotoCaptureGeometry.TryGetVisibleRect(
+                myRect.rect.width, myRect.rect.height, topMargin, out Rect visible))
+            return false;
+
+        Canvas canvas = GetComponentInParent<Canvas>();
+        if (!canvas) return false;
+        Camera uiCamera = canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera;
+        Vector3 lowerWorld = myRect.TransformPoint(new Vector3(
+            myRect.rect.xMin + visible.xMin, myRect.rect.yMin + visible.yMin));
+        Vector3 upperWorld = myRect.TransformPoint(new Vector3(
+            myRect.rect.xMin + visible.xMax, myRect.rect.yMin + visible.yMax));
+        Vector2 lower = RectTransformUtility.WorldToScreenPoint(uiCamera, lowerWorld);
+        Vector2 upper = RectTransformUtility.WorldToScreenPoint(uiCamera, upperWorld);
+        return PhotoCaptureGeometry.TryGetPixelRect(
+            Rect.MinMaxRect(lower.x, lower.y, upper.x, upper.y), Screen.width, Screen.height, out pixels);
+    }
+
+    void AdjustMasks()
+    {
+        if (!myRect) myRect = GetComponent<RectTransform>();
+        if (!myRect) return;
+        float height = myRect.rect.height;
+        float safeMargin = Mathf.Clamp(topMargin, 0, Mathf.Max(0, height));
+        bool valid = PhotoCaptureGeometry.TryGetVisibleRect(myRect.rect.width, height, topMargin, out Rect visible);
+        float bottomHeight = valid ? visible.yMin : 0;
+        if (photoTopMask) ApplySettings(photoTopMask, safeMargin, true);
+        if (photoBottomMask) ApplySettings(photoBottomMask, bottomHeight, false);
+        if (resultTopMask) ApplySettings(resultTopMask, safeMargin, true);
+        if (resultBottomMask) ApplySettings(resultBottomMask, bottomHeight, false);
+    }
+
+    void ApplySettings(RectTransform mask, float height, bool isTop)
+    {
+        float edge = isTop ? 1 : 0;
+        mask.anchorMin = new Vector2(0, edge);
+        mask.anchorMax = new Vector2(1, edge);
+        mask.pivot = new Vector2(0.5f, edge);
+        mask.sizeDelta = new Vector2(0, height);
+        mask.anchoredPosition = Vector2.zero;
     }
 }

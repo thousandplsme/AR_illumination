@@ -1,0 +1,6 @@
+{
+    "name": "WakayamaAR.PlayModeTests",
+    "references": ["WakayamaAR.Runtime", "UnityEngine.UI"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "autoReferenced": false
+}

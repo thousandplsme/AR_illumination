@@ -1,0 +1,4 @@
+{
+    "name": "WakayamaAR.Runtime",
+    "references": ["UnityEngine.UI", "NativeGallery.Runtime", "Unity.XR.ARFoundation", "Unity.XR.ARSubsystems"]
+}

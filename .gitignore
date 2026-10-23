@@ -1,0 +1,13 @@
+# Verification output (logs, NUnit XML, APKs and preservation manifests).
+/Artifacts/
+
+# Legacy Windows Player output. Keep native plugins under Assets tracked.
+/D3D12/
+/MonoBleedingEdge/
+/UnityCrashHandler64.exe
+/UnityPlayer.dll
+/WakayamaAR_Photo(proto)_Data/
+/WakayamaAR_Photo(proto)_BurstDebugInformation_DoNotShip/
+
+# Python tool cache.
+__pycache__/

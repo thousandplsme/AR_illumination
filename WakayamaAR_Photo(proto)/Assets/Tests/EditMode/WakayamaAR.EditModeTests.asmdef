@@ -1,0 +1,7 @@
+{
+    "name": "WakayamaAR.EditModeTests",
+    "references": ["WakayamaAR.Runtime", "WakayamaAR.Editor", "UnityEngine.UI"],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "autoReferenced": false
+}
